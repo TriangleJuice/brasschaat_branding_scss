@@ -726,7 +726,7 @@ hr {
 a {
 	color: #c31e1e;
 	text-decoration: none;
-	transition: color 250ms ease-in-out;
+	transition: color 0.1s ease-in-out;
 }
 
 a:hover,
@@ -1195,7 +1195,7 @@ a .a-avatar:before {
 	pointer-events: none;
 	position: absolute;
 	top: 0;
-	transition: opacity 250ms ease-in-out;
+	transition: opacity 0.1s ease-in-out;
 	width: 100%;
 }
 
@@ -1340,13 +1340,13 @@ a .a-avatar:active:before {
 	display: block;
 	font-size: 1rem;
 	font-weight: 700;
-	line-height: 1.25;
+	line-height: 3rem;
 	margin: 0;
 	min-height: 3rem;
-	padding: 0.875rem 1.5rem;
+	padding: 0 1.5rem;
 	text-align: center;
 	text-decoration: none;
-	transition-duration: 250ms;
+	transition-duration: 0.1s;
 	transition-property: color, background;
 	transition-timing-function: ease-in-out;
 	-webkit-user-select: none;
@@ -1686,7 +1686,7 @@ a .a-avatar:active:before {
 	pointer-events: none;
 	position: absolute;
 	top: 0;
-	transition: opacity 250ms ease-in-out;
+	transition: opacity 0.1s ease-in-out;
 	width: 100%;
 }
 
@@ -2103,8 +2103,9 @@ a .a-avatar:active:before {
 .a-button-outline.a-button--tiny,
 .a-button-transparent.a-button--tiny {
 	font-size: 0.8125rem;
+	line-height: 1.5rem;
 	min-height: 1.5rem;
-	padding: 0.25rem 0.75rem;
+	padding: 0 0.75rem;
 }
 
 .a-button.a-button--tiny .fa,
@@ -2119,8 +2120,8 @@ a .a-avatar:active:before {
 .a-button-outline.a-button--small,
 .a-button-transparent.a-button--small {
 	font-size: 0.875rem;
+	line-height: 2.25rem;
 	min-height: 2.25rem;
-	padding: 0.5625rem 1.5rem;
 }
 
 .a-button.a-button--small .fa,
@@ -2135,8 +2136,8 @@ a .a-avatar:active:before {
 .a-button-outline.a-button--large,
 .a-button-transparent.a-button--large {
 	font-size: 1.125rem;
+	line-height: 3.75rem;
 	min-height: 3.75rem;
-	padding: 1.125rem 1.5rem;
 }
 
 .a-button.a-button--large .fa,
@@ -2398,9 +2399,9 @@ kbd kbd {
 	display: inline-block;
 	font-size: 0.875rem;
 	height: 2.25rem;
-	transition: -webkit-transform 500ms ease-in-out;
-	transition: transform 500ms ease-in-out;
-	transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
+	transition: -webkit-transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
 }
 
 /**
@@ -2522,7 +2523,7 @@ textarea:focus {
 	border-radius: 0;
 	line-height: normal;
 	resize: vertical;
-	transition: border-color 250ms ease-in-out;
+	transition: border-color 0.1s ease-in-out;
 	width: 100%;
 }
 
@@ -2899,7 +2900,7 @@ textarea:focus {
 .a-input.has-icon-right .a-input__wrapper > .fa.is-clickable {
 	cursor: pointer;
 	pointer-events: auto;
-	transition: color 250ms ease-in-out;
+	transition: color 0.1s ease-in-out;
 }
 
 .a-input.has-icon-left .a-input__wrapper > .fa.is-clickable:hover,
@@ -3361,7 +3362,7 @@ dl {
 	left: 0;
 	margin-left: -1.5rem;
 	position: absolute;
-	transition-duration: 250ms;
+	transition-duration: 0.1s;
 	transition-property: background, box-shadow;
 	transition-timing-function: ease-in-out;
 	width: 1.5rem;
@@ -3540,7 +3541,7 @@ dl {
 	left: .25rem;
 	position: absolute;
 	top: .25rem;
-	transition-duration: 250ms;
+	transition-duration: 0.1s;
 	transition-property: background, left;
 	transition-timing-function: ease-in-out;
 	width: 1.25rem;
@@ -3574,7 +3575,7 @@ dl {
 .a-table tr {
 	border-bottom: 1px solid #b0b0b0;
 	height: 3rem;
-	transition: background-color 250ms ease-in-out;
+	transition: background-color 0.1s ease-in-out;
 }
 
 .a-table tr.a-table--clickable:hover,
@@ -3722,9 +3723,9 @@ dl {
 .a-toggle__labels {
 	display: flex;
 	flex-direction: column;
-	transition: -webkit-transform 250ms ease-in-out;
-	transition: transform 250ms ease-in-out;
-	transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+	transition: -webkit-transform 0.1s ease-in-out;
+	transition: transform 0.1s ease-in-out;
+	transition: transform 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
 }
 
 .a-toggle__labels [class*='a-button'] {
@@ -3972,7 +3973,7 @@ dl {
 	padding: 0.75rem 3rem 0.75rem 0.75rem;
 	position: relative;
 	text-align: left;
-	transition: background 250ms ease-in-out;
+	transition: background 0.1s ease-in-out;
 	-webkit-user-select: none;
 	   -moz-user-select: none;
 	    -ms-user-select: none;
@@ -4302,9 +4303,9 @@ dl {
 	opacity: 0;
 	-webkit-transform: translateY(-3rem);
 	        transform: translateY(-3rem);
-	transition: visibility 0s 250ms ease-in-out, opacity 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-	transition: visibility 0s 250ms ease-in-out, opacity 250ms ease-in-out, transform 250ms ease-in-out;
-	transition: visibility 0s 250ms ease-in-out, opacity 250ms ease-in-out, transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+	transition: visibility 0s 0.1s ease-in-out, opacity 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
+	transition: visibility 0s 0.1s ease-in-out, opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+	transition: visibility 0s 0.1s ease-in-out, opacity 0.1s ease-in-out, transform 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
 	visibility: hidden;
 }
 
@@ -4360,7 +4361,7 @@ dl {
 	height: 100%;
 	padding: 0;
 	position: absolute;
-	transition: background 250ms ease-in-out;
+	transition: background 0.1s ease-in-out;
 	width: 100%;
 }
 
@@ -4467,9 +4468,9 @@ dl {
 	position: absolute;
 	-webkit-transform: translateY(-3rem);
 	        transform: translateY(-3rem);
-	transition: visibility 0s 250ms ease-in-out, opacity 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-	transition: visibility 0s 250ms ease-in-out, opacity 250ms ease-in-out, transform 250ms ease-in-out;
-	transition: visibility 0s 250ms ease-in-out, opacity 250ms ease-in-out, transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+	transition: visibility 0s 0.1s ease-in-out, opacity 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
+	transition: visibility 0s 0.1s ease-in-out, opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+	transition: visibility 0s 0.1s ease-in-out, opacity 0.1s ease-in-out, transform 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
 	visibility: hidden;
 	z-index: 4;
 }
@@ -4619,7 +4620,7 @@ dl {
 .m-icon-list li a {
 	color: inherit;
 	display: block;
-	transition: color 250ms ease-in-out;
+	transition: color 0.1s ease-in-out;
 }
 
 .m-icon-list li a:hover {
@@ -4772,7 +4773,7 @@ dl {
 	display: block;
 	padding: 1rem 1.5rem;
 	text-decoration: none;
-	transition-duration: 250ms;
+	transition-duration: 0.1s;
 	transition-property: background, color;
 	transition-timing-function: ease-in-out;
 }
@@ -4902,7 +4903,7 @@ dl {
 	position: absolute;
 	right: 0.75rem;
 	top: 0.75rem;
-	transition: color 250ms ease-in-out;
+	transition: color 0.1s ease-in-out;
 }
 
 .m-overlay__button:hover {
@@ -4956,7 +4957,7 @@ dl {
 	color: white;
 	display: block;
 	text-decoration: none;
-	transition-duration: 250ms;
+	transition-duration: 0.1s;
 	transition-property: color, background;
 	transition-timing-function: ease-in-out;
 }
@@ -5263,7 +5264,7 @@ dl {
 
 .m-selectable-list li {
 	border-top: 1px solid #b0b0b0;
-	transition: background 250ms ease-in-out;
+	transition: background 0.1s ease-in-out;
 }
 
 .m-selectable-list li:last-child {
@@ -5279,7 +5280,7 @@ dl {
 	color: #333;
 	display: block;
 	padding: 1rem 1.5rem;
-	transition: color 250ms ease-in-out;
+	transition: color 0.1s ease-in-out;
 }
 
 /**
@@ -5491,7 +5492,7 @@ dl {
 	padding: 2.25rem 1.5rem;
 	position: relative;
 	text-align: center;
-	transition: background 250ms ease-in-out;
+	transition: background 0.1s ease-in-out;
 	width: 100%;
 }
 
@@ -5825,7 +5826,7 @@ dl {
 	opacity: 1;
 	position: fixed;
 	right: 0;
-	transition: opacity 250ms ease-in-out;
+	transition: opacity 0.1s ease-in-out;
 	z-index: 10;
 }
 
@@ -5878,9 +5879,9 @@ dl {
  */
 
 .o-header {
-	transition: -webkit-transform 250ms ease-in-out;
-	transition: transform 250ms ease-in-out;
-	transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+	transition: -webkit-transform 0.1s ease-in-out;
+	transition: transform 0.1s ease-in-out;
+	transition: transform 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
 	will-change: transform;
 }
 
@@ -6127,9 +6128,9 @@ dl {
 .m-pane--left,
 .m-pane--right {
 	position: absolute;
-	transition: -webkit-transform 250ms ease-in-out;
-	transition: transform 250ms ease-in-out;
-	transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+	transition: -webkit-transform 0.1s ease-in-out;
+	transition: transform 0.1s ease-in-out;
+	transition: transform 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
 }
 
 .m-pane--left.m-pane--open,
@@ -6322,7 +6323,7 @@ dl {
 	background-color: white;
 	height: 100%;
 	overflow: hidden;
-	transition: width 250ms ease-in-out;
+	transition: width 0.1s ease-in-out;
 	width: 0;
 }
 
@@ -6453,8 +6454,8 @@ dl {
 }
 
 .a-table-column-selector > li.show {
-	-webkit-animation: fadeIn 250ms ease-in-out;
-	        animation: fadeIn 250ms ease-in-out;
+	-webkit-animation: fadeIn 0.1s ease-in-out;
+	        animation: fadeIn 0.1s ease-in-out;
 }
 
 .a-table-column-selector > li.active {
